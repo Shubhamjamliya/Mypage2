@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--Icons link  -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <title>Personal Website</title>
+</head>
+
+<body>
+    <!-- Navbar section -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#" class="active" style="--i:1">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#" style="--i:3">Skills</a>
+            <a href="#" style="--i:4">Resume</a>
+            <a href="#" style="--i:5">Contact</a>
+        </nav>
+    </header>
+
+    <!-- profile Section  -->
+    <div class="profile-container">
+        <div class="info">
+            <h3 class="part-1">Hello,It's Me</h3>
+            <h1>Shubham Jamliya</h1>
+            <h3 class="part-2">And I'm a <span id="changing-text">Frontend Developer</span></h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam et voluptates minus pariatur earum
+                excepturi tempora? Libero ex quod ipsam quae doloribus deserunt, tempore maiores error eligendi enim
+                asperiores voluptatibus. Illum, rem?</p>
+
+            <!--Social Network  -->
+            <a href="#"><i class="uil uil-instagram" style="--i:7"></i></a>
+            <a href="https://www.linkedin.com/in/shubham-jamliya-9b4593230"><i class="uil uil-linkedin"
+                    style="--i:8"></i></a>
+            <a href="http://github.com/Shubhamjamliya"><i class="uil uil-github" style="--i:9"></i></a>
+            <a href="#"><i class="uil uil-twitter" style="--i:10"></i></a><br />
+            <button class="btn">Download CV</button>
+        </div>
+        <div class="profile-image">
+            <img src="./profile-picture.png" alt="Profile-photo">
+        </div>
+    </div>
+
+<!-- About Section -->
+<section id="about">
+    <div class="about-container">
+     <h2>About Me</h2>
+     <h3>Introduction</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis beatae eius quae ab consequatur est
+            perferendis dicta. Ad repellendus perferendis minus sunt error eos dicta enim accusantium ipsum
+            veniam debitis quasi sint cum fugiat porro quam, blanditiis a ratione quod!</p>
+            
+            abc@gmail.com
+        <a href="#">Download Cv</a>
+    </div>
+</section>
+<!-- About section End -->
+<!-- Skills Section Start -->
+<section id="skills">
+    <h2>Skills</h2>
+    My Skills
+            <h3>HTML</h3>
+            94%
+            <h3>CSS</h3>
+            84%
+            <h3>JavaScript</h3>
+            74%
+            <h3>React</h3>
+            80%
+        <img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Skill" data-lazy-src="main.png"><noscript><img decoding="async" src="main.png" alt="Skill"></noscript>
+</section>
+<!-- Skills Section End -->
+
+<!-- Contact section Starts -->
+<div class="contactform">
+    <h1>Contact me for Work/General Enquiry</h1>
+    <form>
+        <div class="mb-3">
+          <label for="clientemail" class="form-label">Name</label>
+          <input type="name" class="form-control" id="clientemail" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="clientemail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.</div>
+          </div>
+        <div class="mb-3">
+          <label for="clientphone" class="form-label">Phone</label>
+          <input type="phonr" class="form-control" id="clientphone">
+        </div>
+        <div class="mb-3">
+            <label for="clientemail" class="form-label">Enquiry</label>
+            <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+          </div>
+        <div class="mb-3 form-check" id="form-check">
+          <input type="checkbox" class="form-check-input" id="isclient">
+          <label class="form-check-label" for="isclient">I want you to work on a project</label>
+        </div>
+        <button type="submit" class="btn btn-sm">Submit</button>
+      </form>
+</div>            
+<!-- Contact section ends -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
